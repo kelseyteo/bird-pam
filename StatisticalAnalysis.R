@@ -362,18 +362,17 @@ R2_123 <- 0.975
 g <- R2_1 + R2_2 + R2_3 - R2_12 - R2_13 - R2_23 + R2_123
 
 # Shared two-way overlaps
-d <- R2_12 - R2_1 - R2_2 + g        # X1 ∩ X2 only
-e <- R2_13 - R2_1 - R2_3 + g          # X1 ∩ X3 only
-f <- R2_23 - R2_2 - R2_3 + g          # X2 ∩ X3 only
+d <- R2_12 - R2_1 - R2_2 + g     
+e <- R2_13 - R2_1 - R2_3 + g         
+f <- R2_23 - R2_2 - R2_3 + g          
 
 # Unique fractions
-a <- R2_123 - R2_23  # unique to X1 (fc650m)
-b <- R2_123 - R2_13  # unique to X2 (NDSI)
-c <- R2_123 - R2_12  # unique to X3 (Dist from M25)
+a <- R2_123 - R2_23  
+b <- R2_123 - R2_13  
+c <- R2_123 - R2_12 
 # Residual (unexplained)
 h <- 1 - R2_123
 
-# ---- 3. DISPLAY RESULT ----
 parts <- round(c(
   unique_forest_cover = a,
   unique_mean_NDSI    = b,
@@ -432,18 +431,17 @@ R2_123 <- 0.952
 g <- R2_1 + R2_2 + R2_3 - R2_12 - R2_13 - R2_23 + R2_123
 
 # Shared two-way overlaps
-d <- R2_12 - R2_1 - R2_2 + g        # X1 ∩ X2 only
-e <- R2_13 - R2_1 - R2_3 + g          # X1 ∩ X3 only
-f <- R2_23 - R2_2 - R2_3 + g          # X2 ∩ X3 only
+d <- R2_12 - R2_1 - R2_2 + g      
+e <- R2_13 - R2_1 - R2_3 + g         
+f <- R2_23 - R2_2 - R2_3 + g          
 
 # Unique fractions
-a <- R2_123 - R2_23  # unique to X1 (fc650m)
-b <- R2_123 - R2_13  # unique to X2 (NDSI)
-c <- R2_123 - R2_12  # unique to X3 (Dist from M25)
+a <- R2_123 - R2_23 
+b <- R2_123 - R2_13  
+c <- R2_123 - R2_12 
 # Residual (unexplained)
 h <- 1 - R2_123
 
-# ---- 3. DISPLAY RESULT ----
 parts <- round(c(
   unique_forest_cover = a,
   unique_mean_NDSI    = b,
