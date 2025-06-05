@@ -5,4 +5,4 @@ ExplanatoryVariables.R - calculation of percentage forest cover and NDSI at each
 
 ManualValidation.R - validation of BirdNET files and calculating precision. Adapted from code from Mitchell (2024).
 
-StatisticalAnalysis.R - GLMs for species richness, PCoA and LMs for community composition, and manual variation partitioning calculations
+StatisticalAnalysis.R - GLMs for species richness, PCoA and LMs for community composition, and manual variation partitioning calculations using R2
